@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ISO19139.xslt"?>
+<gmd:MD_Metadata xsi:schemaLocation="http://www.isotc211.org/2005/gmd ../schemas/iso19139fra/gmd/gmd.xsd" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:map="urn:brgm:mapping" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gfc="http://www.isotc211.org/2005/gfc" xmlns:gco="http://www.isotc211.org/2005/gco">
+	<geosoft xmlns="http://www.geosoft.com/schema/geo">
+		<dataset version="1">
+			<lineage>
+				<process name="geogxnet.dll(Geosoft.GX.GridUtils.GridStat;Run)" user="Marco Brønner" version="Version 2021.2.1 (20220125.11)" date="2024-08-13" time="09:30:12">
+					<parameter name="GRIDSTAT::DX" value="10" type="double"/>
+					<parameter name="GRIDSTAT::DY" value="10" type="double"/>
+					<parameter name="GRIDSTAT::GRID" value="N:\Prosjekter\388900_FLYGE\HELI2024\Ulefoss_2024\NGU_Ulefoss_Data\Rad\grids\Geosoft\Uranium.grd(GRD)" type="string"/>
+					<parameter name="GRIDSTAT::MODIFY_ONLY" value="" type="integer"/>
+					<parameter name="GRIDSTAT::ROT" value="0" type="double"/>
+					<parameter name="GRIDSTAT::ROT1" value="0" type="double"/>
+					<parameter name="GRIDSTAT::SKIP_GRID_DIALOG" value="1" type="integer"/>
+					<parameter name="GRIDSTAT::X0" value="512164.512796" type="double"/>
+					<parameter name="GRIDSTAT::Y0" value="6560858.06495" type="double"/>
+					<parameter name="IPJSET::PROJECTION" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#xA;&lt;projection type=&quot;TRANSVERSE_MERCATOR&quot; name=&quot;WGS 84 / UTM zone 32N&quot; wellknown_epsg=&quot;32632&quot; projection=&quot;UTM zone 32N&quot; ellipsoid=&quot;WGS 84&quot; datum=&quot;WGS 84&quot; datumtrf=&quot;WGS 84&quot; datumtrf_description=&quot;[WGS 84] World&quot; radius=&quot;6378137&quot; eccentricity=&quot;0.081819190842621486&quot; xmlns=&quot;http://www.geosoft.com/schema/geo&quot;&gt;&#xA;	&lt;shift x=&quot;0&quot; y=&quot;0&quot; z=&quot;0&quot;/&gt;&#xA;	&lt;parameters scale=&quot;0.9996&quot; false_east=&quot;500000&quot; false_north=&quot;0&quot; lat_origin=&quot;0&quot; lon_origin=&quot;9&quot;/&gt;&#xA;	&lt;units name=&quot;m&quot; unit_scale=&quot;1&quot;/&gt;&#xA;&lt;/projection&gt;&#xA;" type="string"/>
+					<source name="N:\Prosjekter\388900_FLYGE\HELI2024\Ulefoss_2024\NGU_Ulefoss_Data\Rad\grids\Geosoft\Uranium.grd" type="GRID"/>
+				</process>
+			</lineage>
+			<project_name>c:\users\bronner_marco\onedrive - norges geologiske undersøkelse\helikopter\helikopter2024\helicopter2024.gpf</project_name>
+			<metadata_created_by>Marco Brønner</metadata_created_by>
+			<metadata_creation_date>2024-08-13</metadata_creation_date>
+			<geo:airbornegeophysics xmlns:geo="http://www.geosoft.com/schema/geo">
+				<geo:instrument index="191">UNSPECIFIED VLF, VLF, VLF electromagnetics</geo:instrument>
+				<geo:aircraft_type index="3">Helicopter</geo:aircraft_type>
+				<geo:aircraft_position_method index="3">GPS</geo:aircraft_position_method>
+				<geo:survey_operator>Geological Survey of Norway</geo:survey_operator>
+				<geo:contract_job_no/>
+				<geo:additional_instruments>Radiometric Sensor Medusa MS-4000 - mounted on platform - 1 Hz sampling</geo:additional_instruments>
+				<geo:average_sensor_height>50</geo:average_sensor_height>
+				<geo:line_direction>140/320</geo:line_direction>
+				<geo:line_spacing>50</geo:line_spacing>
+				<geo:original_clients/>
+				<geo:survey_comments/>
+				<geo:tie_line_spacing/>
+				<geo:total_line_km>1615</geo:total_line_km>
+			</geo:airbornegeophysics>
+			<geo:metadatacreationdate xmlns:geo="http://www.geosoft.com/schema/geo">2015-06-30</geo:metadatacreationdate>
+			<adminstration_contractor index="75" xmlns="">Geotech Airborne Limited</adminstration_contractor>
+			<geo:classification index="2" xmlns:geo="http://www.geosoft.com/schema/geo">restricted</geo:classification>
+			<geo:file_format index="11" xmlns:geo="http://www.geosoft.com/schema/geo">Geosoft Grid</geo:file_format>
+			<geo:data_source xmlns:geo="http://www.geosoft.com/schema/geo">Geotech Airborne Limited</geo:data_source>
+			<interpretation_contractor index="73" xmlns="">Geological Survey of Norway</interpretation_contractor>
+			<geo:metadatacreatedby xmlns:geo="http://www.geosoft.com/schema/geo">Geological Survey of Norway</geo:metadatacreatedby>
+			<processing_contractor index="75" xmlns="">Geotech Airborne Limited</processing_contractor>
+			<geo:restriction index="1" xmlns:geo="http://www.geosoft.com/schema/geo">copyright</geo:restriction>
+			<geo:restriction_details xmlns:geo="http://www.geosoft.com/schema/geo"/>
+			<geo:primary_theme index="3" xmlns:geo="http://www.geosoft.com/schema/geo">Geophysics - Airborne</geo:primary_theme>
+			<geo:data_weburl xmlns:geo="http://www.geosoft.com/schema/geo"/>
+			<geo:description xmlns:geo="http://www.geosoft.com/schema/geo">The survey was flown over difficult terrain trying to keep the nominal terrain clearance as good as possible. Despite the difficult flying conditions line keeping was relatively good. Some deviations from the flight plan were caused by Norwegian CAA (civil aviation authority) restrictions regarding flight heights in populated areas, deviations due to livestock and local domestic requests of no fly areas.
+Ground clearance was calculated from the GPS altitude and a digital elevation model (both geoidal heights). Ground
+clearance is an important parameter for radiometric data processing.
+Dropouts were recorded in the magnetic data. These dropouts occurred where strong manoeuvres were executed and when strong sources of anthropogenic noise were encountered, such as power lines.
+Line keeping over the course of the survey was considered of good quality within the challenging environment of the survey area. Poor line keeping was observed on the first production flight due to operations being conducted by novice survey pilot.
+Where dropouts were found on-line and/or poor line keeping occurred, lines were re-flown. Three lines were re-flown in the Ulefoss survey area. No strong diurnal variation occurred during survey. The base station was working during all production flights.
+The radiometric recording system was operational during the survey period. Aircraft and Cosmic background spectra were successfully established during a 'high-level-stack' calibration flight. The Thorium peak resolution was below 7% for all flights.</geo:description>
+			<geo:project_number xmlns:geo="http://www.geosoft.com/schema/geo">342900</geo:project_number>
+			<geo:support_documents xmlns:geo="http://www.geosoft.com/schema/geo"/>
+			<geo:survey_name xmlns:geo="http://www.geosoft.com/schema/geo">Nr. 234 Ulefoss - 2024</geo:survey_name>
+			<geo:title xmlns:geo="http://www.geosoft.com/schema/geo">Uranium</geo:title>
+			<geo:country index="1" xmlns:geo="http://www.geosoft.com/schema/geo">Norway, Kingdom of</geo:country>
+			<geo:hierarchy_secondary_theme index="8" xmlns:geo="http://www.geosoft.com/schema/geo">Radiometrics</geo:hierarchy_secondary_theme>
+			<geo:secondary_theme index="8" xmlns:geo="http://www.geosoft.com/schema/geo">Radiometrics</geo:secondary_theme>
+			<georeference>
+				<dataextents>
+					<extent2d minx="512164.512796" miny="6560858.0649499996" maxx="522114.512796" maxy="6572108.0649499996"/>
+				</dataextents>
+				<projection type="TRANSVERSE_MERCATOR" name="WGS 84 / UTM zone 32N" wellknown_epsg="32632" projection="UTM zone 32N" ellipsoid="WGS 84" datum="WGS 84" datumtrf="WGS 84" datumtrf_description="[WGS 84] World" radius="6378137" eccentricity="0.081819190842621486">
+					<shift x="0" y="0" z="0"/>
+					<parameters scale="0.9996" false_east="500000" false_north="0" lat_origin="0" lon_origin="9"/>
+					<units name="m" unit_scale="1"/>
+				</projection>
+			</georeference>
+		</dataset>
+	</geosoft>
+	<gmd:dataQualityInfo>
+		<gmd:DQ_DataQuality>
+			<gmd:lineage>
+				<gmd:LI_Lineage>
+					<gmd:processStep xlink:type="Geosoft Process" xlink:title="geogxnet.dll(Geosoft.GX.GridUtils.GridStat;Run)">
+						<gmd:LI_ProcessStep>
+							<gmd:dateTime>
+								<gco:DateTime>2024-08-13T09:30:12</gco:DateTime>
+							</gmd:dateTime>
+							<gmd:processor>
+								<gmd:CI_ResponsibleParty>
+									<gmd:individualName>
+										<gco:CharacterString>Marco Brønner</gco:CharacterString>
+									</gmd:individualName>
+								</gmd:CI_ResponsibleParty>
+							</gmd:processor>
+							<gmd:source xlink:type="Data Parameter" xlink:role="GRIDSTAT::DX" xlink:title="10">
+								<gmd:LI_Source/>
+							</gmd:source>
+							<gmd:source xlink:type="Data Parameter" xlink:role="GRIDSTAT::DY" xlink:title="10">
+								<gmd:LI_Source/>
+							</gmd:source>
+							<gmd:source xlink:type="Data Parameter" xlink:role="GRIDSTAT::GRID" xlink:title="N:\Prosjekter\388900_FLYGE\HELI2024\Ulefoss_2024\NGU_Ulefoss_Data\Rad\grids\Geosoft\Uranium.grd(GRD)">
+								<gmd:LI_Source/>
+							</gmd:source>
+							<gmd:source xlink:type="Data Parameter" xlink:role="GRIDSTAT::MODIFY_ONLY" xlink:title="">
+								<gmd:LI_Source/>
+							</gmd:source>
+							<gmd:source xlink:type="Data Parameter" xlink:role="GRIDSTAT::ROT" xlink:title="0">
+								<gmd:LI_Source/>
+							</gmd:source>
+							<gmd:source xlink:type="Data Parameter" xlink:role="GRIDSTAT::ROT1" xlink:title="0">
+								<gmd:LI_Source/>
+							</gmd:source>
+							<gmd:source xlink:type="Data Parameter" xlink:role="GRIDSTAT::SKIP_GRID_DIALOG" xlink:title="1">
+								<gmd:LI_Source/>
+							</gmd:source>
+							<gmd:source xlink:type="Data Parameter" xlink:role="GRIDSTAT::X0" xlink:title="512164.512796">
+								<gmd:LI_Source/>
+							</gmd:source>
+							<gmd:source xlink:type="Data Parameter" xlink:role="GRIDSTAT::Y0" xlink:title="6560858.06495">
+								<gmd:LI_Source/>
+							</gmd:source>
+							<gmd:source xlink:type="Data Parameter" xlink:role="IPJSET::PROJECTION" xlink:title="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#xA;&lt;projection type=&quot;TRANSVERSE_MERCATOR&quot; name=&quot;WGS 84 / UTM zone 32N&quot; wellknown_epsg=&quot;32632&quot; projection=&quot;UTM zone 32N&quot; ellipsoid=&quot;WGS 84&quot; datum=&quot;WGS 84&quot; datumtrf=&quot;WGS 84&quot; datumtrf_description=&quot;[WGS 84] World&quot; radius=&quot;6378137&quot; eccentricity=&quot;0.081819190842621486&quot; xmlns=&quot;http://www.geosoft.com/schema/geo&quot;&gt;&#xA;	&lt;shift x=&quot;0&quot; y=&quot;0&quot; z=&quot;0&quot;/&gt;&#xA;	&lt;parameters scale=&quot;0.9996&quot; false_east=&quot;500000&quot; false_north=&quot;0&quot; lat_origin=&quot;0&quot; lon_origin=&quot;9&quot;/&gt;&#xA;	&lt;units name=&quot;m&quot; unit_scale=&quot;1&quot;/&gt;&#xA;&lt;/projection&gt;&#xA;">
+								<gmd:LI_Source/>
+							</gmd:source>
+							<gmd:source xlink:type="Data Source" xlink:role="GRID" xlink:title="N:\Prosjekter\388900_FLYGE\HELI2024\Ulefoss_2024\NGU_Ulefoss_Data\Rad\grids\Geosoft\Uranium.grd">
+								<gmd:LI_Source/>
+							</gmd:source>
+						</gmd:LI_ProcessStep>
+					</gmd:processStep>
+					<gmd:source>
+						<gmd:LI_Source>
+							<geox:dataSourceType xmlns:geox="http://www.geosoft.com/schema/iso_geophysics_extension">
+								<gco:CharacterString>Geotech Airborne Limited</gco:CharacterString>
+							</geox:dataSourceType>
+						</gmd:LI_Source>
+					</gmd:source>
+				</gmd:LI_Lineage>
+			</gmd:lineage>
+		</gmd:DQ_DataQuality>
+	</gmd:dataQualityInfo>
+	<gmd:identificationInfo>
+		<gmd:MD_DataIdentification>
+			<gmd:citation>
+				<gmd:CI_Citation>
+					<gmd:collectiveTitle>
+						<gco:CharacterString>c:\users\bronner_marco\onedrive - norges geologiske undersøkelse\helikopter\helikopter2024\helicopter2024.gpf</gco:CharacterString>
+					</gmd:collectiveTitle>
+					<gmd:alternateTitle>
+						<gco:CharacterString>342900</gco:CharacterString>
+					</gmd:alternateTitle>
+					<gmd:surveyName>
+						<gco:CharacterString>Nr. 234 Ulefoss - 2024</gco:CharacterString>
+					</gmd:surveyName>
+					<gmd:title>
+						<gco:CharacterString>Uranium</gco:CharacterString>
+					</gmd:title>
+				</gmd:CI_Citation>
+			</gmd:citation>
+			<gmd:resourceFormat>
+				<gmd:MD_Format>
+					<gmd:name>
+						<gco:CharacterString>Geosoft Grid</gco:CharacterString>
+					</gmd:name>
+				</gmd:MD_Format>
+			</gmd:resourceFormat>
+			<gmd:descriptiveKeywords>
+				<gmd:MD_Keywords>
+					<gmd:keyword>
+						<gco:CharacterString>Geophysics - Airborne</gco:CharacterString>
+					</gmd:keyword>
+					<gmd:keyword>
+						<gco:CharacterString>Norway, Kingdom of</gco:CharacterString>
+					</gmd:keyword>
+				</gmd:MD_Keywords>
+			</gmd:descriptiveKeywords>
+			<gmd:resourceSpecificUsage>
+				<gmd:MD_Usage>
+					<geox:classification xmlns:geox="http://www.geosoft.com/schema/iso_geophysics_extension">
+						<gco:CharacterString>restricted</gco:CharacterString>
+					</geox:classification>
+					<geox:restriction xmlns:geox="http://www.geosoft.com/schema/iso_geophysics_extension">
+						<gco:CharacterString>copyright</gco:CharacterString>
+					</geox:restriction>
+				</gmd:MD_Usage>
+			</gmd:resourceSpecificUsage>
+			<gmd:AdminstrationContractor>
+				<gmd:MD_ProgressCode>Geotech Airborne Limited</gmd:MD_ProgressCode>
+			</gmd:AdminstrationContractor>
+			<gmd:ProcessingContractor>
+				<gmd:MD_ProgressCode>Geotech Airborne Limited</gmd:MD_ProgressCode>
+			</gmd:ProcessingContractor>
+			<gmd:InterpretationContractor>
+				<gmd:MD_ProgressCode>Geological Survey of Norway</gmd:MD_ProgressCode>
+			</gmd:InterpretationContractor>
+			<geox:geophysics xmlns:geox="http://www.geosoft.com/schema/iso_geophysics_extension">
+				<geox:MD_Geophysics>
+					<geox:airborne>
+						<geox:MD_Airborne>
+							<geox:instrument>
+								<gco:CharacterString>UNSPECIFIED VLF, VLF, VLF electromagnetics</gco:CharacterString>
+							</geox:instrument>
+							<geox:aircraftType>
+								<gco:CharacterString>Helicopter</gco:CharacterString>
+							</geox:aircraftType>
+							<geox:positioningmethod>
+								<gco:CharacterString>GPS</gco:CharacterString>
+							</geox:positioningmethod>
+							<geox:surveyOperator>
+								<gco:CharacterString>Geological Survey of Norway</gco:CharacterString>
+							</geox:surveyOperator>
+							<geox:additionalInstruments>
+								<gco:CharacterString>Radiometric Sensor Medusa MS-4000 - mounted on platform - 1 Hz sampling</gco:CharacterString>
+							</geox:additionalInstruments>
+							<geox:averageSensorHeight>
+								<gco:CharacterString>50</gco:CharacterString>
+							</geox:averageSensorHeight>
+							<geox:lineDirection>
+								<gco:CharacterString>140/320</gco:CharacterString>
+							</geox:lineDirection>
+							<geox:lineSpacing>
+								<gco:CharacterString>50</gco:CharacterString>
+							</geox:lineSpacing>
+							<geox:totalLineKm>
+								<gco:CharacterString>1615</gco:CharacterString>
+							</geox:totalLineKm>
+						</geox:MD_Airborne>
+					</geox:airborne>
+				</geox:MD_Geophysics>
+			</geox:geophysics>
+			<gmd:abstract>
+				<gco:CharacterString>The survey was flown over difficult terrain trying to keep the nominal terrain clearance as good as possible. Despite the difficult flying conditions line keeping was relatively good. Some deviations from the flight plan were caused by Norwegian CAA (civil aviation authority) restrictions regarding flight heights in populated areas, deviations due to livestock and local domestic requests of no fly areas.
+Ground clearance was calculated from the GPS altitude and a digital elevation model (both geoidal heights). Ground
+clearance is an important parameter for radiometric data processing.
+Dropouts were recorded in the magnetic data. These dropouts occurred where strong manoeuvres were executed and when strong sources of anthropogenic noise were encountered, such as power lines.
+Line keeping over the course of the survey was considered of good quality within the challenging environment of the survey area. Poor line keeping was observed on the first production flight due to operations being conducted by novice survey pilot.
+Where dropouts were found on-line and/or poor line keeping occurred, lines were re-flown. Three lines were re-flown in the Ulefoss survey area. No strong diurnal variation occurred during survey. The base station was working during all production flights.
+The radiometric recording system was operational during the survey period. Aircraft and Cosmic background spectra were successfully established during a 'high-level-stack' calibration flight. The Thorium peak resolution was below 7% for all flights.</gco:CharacterString>
+			</gmd:abstract>
+			<gmd:extent>
+				<gmd:EX_Extent>
+					<gmd:geographicElement>
+						<gmd:EX_GeographicBoundingBox>
+							<gmd:westBoundLongitude>
+								<gco:Decimal>9.2128860161737887</gco:Decimal>
+							</gmd:westBoundLongitude>
+							<gmd:eastBoundLongitude>
+								<gco:Decimal>9.3881593086564994</gco:Decimal>
+							</gmd:eastBoundLongitude>
+							<gmd:southBoundLatitude>
+								<gco:Decimal>59.18627297837002</gco:Decimal>
+							</gmd:southBoundLatitude>
+							<gmd:northBoundLatitude>
+								<gco:Decimal>59.287702577637226</gco:Decimal>
+							</gmd:northBoundLatitude>
+						</gmd:EX_GeographicBoundingBox>
+					</gmd:geographicElement>
+				</gmd:EX_Extent>
+			</gmd:extent>
+		</gmd:MD_DataIdentification>
+	</gmd:identificationInfo>
+	<gmd:contact>
+		<gmd:CI_ResponsibleParty>
+			<gmd:individualName>
+				<gco:CharacterString>Marco Brønner</gco:CharacterString>
+			</gmd:individualName>
+		</gmd:CI_ResponsibleParty>
+	</gmd:contact>
+	<gmd:MD_Identification>
+		<gmd:MD_TopicCategory>
+			<gmd:hierarchy_subCategory>
+				<gco:CharacterString>Radiometrics</gco:CharacterString>
+			</gmd:hierarchy_subCategory>
+			<gmd:subCategory>
+				<gco:CharacterString>Radiometrics</gco:CharacterString>
+			</gmd:subCategory>
+		</gmd:MD_TopicCategory>
+	</gmd:MD_Identification>
+	<gmd:distributionInfo>
+		<gmd:MD_Distribution>
+			<gmd:distributionFormat>
+				<gmd:MD_Format>
+					<gmd:name>
+						<gco:CharacterString>Geosoft Grid</gco:CharacterString>
+					</gmd:name>
+				</gmd:MD_Format>
+			</gmd:distributionFormat>
+		</gmd:MD_Distribution>
+	</gmd:distributionInfo>
+	<gmd:metadataEntity>
+		<gmd:MD_Metadata>
+			<gmd:contact>
+				<gmd:CI_ResponsibleParty>
+					<gmd:individualName>
+						<gco:CharacterString>Geological Survey of Norway</gco:CharacterString>
+					</gmd:individualName>
+				</gmd:CI_ResponsibleParty>
+			</gmd:contact>
+			<gmd:dateStamp>
+				<gco:Date>2015-06-30</gco:Date>
+			</gmd:dateStamp>
+		</gmd:MD_Metadata>
+	</gmd:metadataEntity>
+	<auditLog>
+		<revisedBy>aziz.nasuti@ngu.no</revisedBy>
+		<revisionDate>2024-10-25T12:03:20</revisionDate>
+		<notes>Upload metadata into database</notes>
+	</auditLog>
+	<gmd:dateStamp>
+		<gco:Date>2024-8-13</gco:Date>
+	</gmd:dateStamp>
+	<gmd:referenceSystemInfo>
+		<gmd:MD_ReferenceSystem>
+			<gmd:referenceSystemIdentifier>
+				<gmd:RS_Identifier>
+					<gmd:codeSpace>
+						<gco:CharacterString>ESRI</gco:CharacterString>
+					</gmd:codeSpace>
+					<gmd:code>
+						<gco:CharacterString>PROJCS["WGS_1984_UTM_Zone_32N",GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Transverse_Mercator"],PARAMETER["False_Easting",500000.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",9.0],PARAMETER["Scale_Factor",0.9996],PARAMETER["Latitude_Of_Origin",0.0],UNIT["Meter",1.0],AUTHORITY["EPSG",32632]]</gco:CharacterString>
+					</gmd:code>
+					<gmd:version>
+						<gco:CharacterString>1</gco:CharacterString>
+					</gmd:version>
+				</gmd:RS_Identifier>
+			</gmd:referenceSystemIdentifier>
+		</gmd:MD_ReferenceSystem>
+	</gmd:referenceSystemInfo>
+</gmd:MD_Metadata>

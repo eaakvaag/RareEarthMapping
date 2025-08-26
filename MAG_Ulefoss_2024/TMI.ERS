@@ -1,0 +1,32 @@
+DatasetHeader Begin
+	Version		= "7.0"
+	Name		= "TMI.ERS"
+	LastUpdated	= Mon Aug 11 16:38:35 GMT 2025
+	DataSetType	= ERStorage
+	DataType	= Raster
+	ByteOrder	= LSBFirst
+	CoordinateSpace Begin
+		Datum		= "WGS84"
+		Projection	= "NUTM32"
+		CoordinateType	= EN
+		Units		= "METERS"
+		Rotation	= 0:0:0.0
+	CoordinateSpace End
+	RasterInfo Begin
+		CellType	= IEEE4ByteReal
+		NullCellValue	= -999999
+		CellInfo Begin
+			Xdimension	= 10
+			Ydimension	= 10
+		CellInfo End
+		NrOfLines	= 1126
+		NrOfCellsPerLine	= 997
+		RegistrationCoord Begin
+			Eastings	= 512156.08881400002
+			Northings	= 6560862.0756299999
+		RegistrationCoord End
+		RegistrationCellX	= 0
+		RegistrationCellY	= 1125
+		NrOfBands	= 1
+	RasterInfo End
+DatasetHeader End
